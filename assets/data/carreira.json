@@ -1,0 +1,122 @@
+{
+  "seo": {
+    "title": "Melissa Fiuza | Mapa de Carreira em Tecnologia",
+    "description": "Mapa de carreira de Melissa Fiuza, com objetivos profissionais, trilha de aprendizagem, habilidades, idiomas e contatos.",
+    "author": "Melissa Fiuza",
+    "canonicalUrl": "https://exemplo.com/mapa-de-carreira/"
+  },
+  "profile": {
+    "name": "Melissa Fiuza",
+    "headline": "Desenvolvedora ",
+    "photo": "assets/images/profile.jpeg",
+    "photoAlt": "Foto profissional de Melissa Fiuza",
+    "summary": "Desenvolvedora em formação, apaixonada por tecnologia e pela criação de soluções digitais. Atualmente curso Análise e Desenvolvimento de Sistemas (ADS) na FIAP e também participo do curso de Desenvolvimento Web Java do Instituto PROA, ampliando meus conhecimentos em programação, desenvolvimento de software e tecnologias web. Ao longo da minha trajetória, participei de projetos colaborativos voltados à inovação e ao impacto social, desenvolvendo habilidades técnicas, de comunicação e trabalho em equipe. Busco construir uma carreira na área de tecnologia com foco em aprendizado contínuo, desenvolvimento de aplicações modernas e geração de valor por meio da tecnologia.",
+    "cvUrl": "https://docs.google.com/document/d/1mBN11lGtFu4VMxM1acxMDFu1_PIQXBhF6dNHqVthCOs/edit?usp=sharing"
+  },
+  "contacts": [
+    {
+      "label": "melfiuza153@gmail.com",
+      "url": "mailto:melfiuza153@gmail.com"
+    },
+    {
+    "label": "linkedin.com/in/melissafiuza",
+      "url": "https://www.linkedin.com/in/melissa-fiuza"
+    },
+    {
+      "label": "github.com/melissafiuza",
+      "url": "https://github.com/melissafiuza"
+    }
+  ],
+  "careerSteps": [
+    {
+      "title": "Desenvolvedora Junior",
+      "description": "Consolidar conhecimentos em desenvolvimento web, lógica de programação, banco de dados, versionamento e construção de aplicações modernas, participando de projetos que permitam evolução técnica e profissional.",
+      "softSkills": [
+        "Organização para conciliar estudos, projetos e prazos.",
+        "Comunicação clara para colaborar com equipes e compartilhar conhecimento.",
+        "Adaptabilidade diante de novos desafios e ferramentas."
+      ],
+      "roadmap": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Git e GitHub",
+        "Python",
+        "React"
+      ]
+    },
+    {
+      "title": "Desenvolvedora Pleno",
+      "description": "Atuar com autonomia no desenvolvimento de aplicações Full Stack, contribuindo para a criação e manutenção de APIs, bancos de dados e interfaces web. Participar de decisões técnicas, garantindo qualidade, desempenho e boas práticas de desenvolvimento.",
+      "softSkills": [
+        "Autonomia para resolver problemas complexos.",
+        "Colaboração entre equipes de desenvolvimento e negócio.",
+        "Capacidade de explicar escolhas tecnicas para diferentes publicos.",
+        "Organização e responsabilidade com entregas."
+      ],
+      "roadmap": [
+        "Java",
+        "Spring Boot",
+        "APIs REST",
+        "Testes automatizados",
+        "Banco de dados"
+      ]
+    },
+    {
+      "title": "Desenvolvedora Sênior",
+      "description": "Projetar e liderar o desenvolvimento de soluções Full Stack escaláveis, definindo arquiteturas, padrões de desenvolvimento e estratégias de integração entre sistemas. Atuar como referência técnica e apoiar o crescimento da equipe.",
+      "softSkills": [
+        "Liderança técnica e mentoria.",
+        "Visão estratégica de produto e negócio.",
+        "Tomada de decisões baseada em impacto e escalabilidade.",
+        "Capacidade de orientar equipes e compartilhar conhecimento."
+
+      ],
+      "roadmap": [
+        "Arquitetura de software",
+        "Cloud",
+        "Microsserviços",
+        "Seguranca de Aplicações",
+        "Docker"
+      ]
+    }
+  ],
+  "skillGroups": [
+    {
+      "title": "Frontend",
+      "skills": [
+        {
+          "name": "HTML, CSS e JavaScript",
+          "level": 85
+        },
+        {
+          "name": "React",
+          "level": 70
+        }
+      ]
+    },
+    {
+      "title": "Backend e dados",
+      "skills": [
+        {
+          "name": "Java",
+          "level": 50
+        },
+        {
+          "name": "SQL",
+          "level": 45
+        },
+        {
+          "name": "Python",
+          "level": 60
+        }
+      ]
+    }
+  ],
+  "otherSkills": [
+    "Git",
+    "Comunicacao",
+    "Documentacao",
+    "Code review"
+  ]
+}
