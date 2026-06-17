@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Mapa de Carreira</title>
+	<meta name="description" content="Mapa de carreira com dados carregados de um arquivo JSON.">
+	<meta name="robots" content="index, follow">
+	<meta name="theme-color" content="#160B23">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+	<a class="skip-link" href="#conteudo-principal">Pular para o conteudo principal</a>
+
+	<div class="bg-decor" aria-hidden="true">
+		<span class="blob blob-a"></span>
+		<span class="blob blob-b"></span>
+	</div>
+
+	<header class="hero" role="banner">
+		<div class="hero-window">
+			<div class="window-bar">
+				<span class="dot dot-r"></span>
+				<span class="dot dot-y"></span>
+				<span class="dot dot-g"></span>
+				<span class="window-title">carreira.dev</span>
+			</div>
+
+			<div class="hero-content">
+				<div class="hero-avatar-wrap">
+					<img id="profile-photo" class="hero-avatar" src="assets/images/profile.jpeg" alt="">
+				</div>
+
+				<div class="hero-text">
+					<p class="hero-eyebrow">// mapa de carreira</p>
+					<h1 id="profile-name" class="hero-name">Mapa de Carreira</h1>
+					<p id="profile-headline" class="hero-headline"></p>
+					<ul id="contact-list" class="hero-contacts" aria-label="Contatos"></ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main id="conteudo-principal" class="page" tabindex="-1">
+		<section id="perfil" class="card reveal" aria-labelledby="titulo-perfil">
+			<h2 id="titulo-perfil" class="section-title">
+				Prazer em conhecer
+			</h2>
+			<p id="profile-summary" class="profile-summary"></p>
+			<a id="cv-link" class="btn-primary" target="_blank" href="#">
+				Baixar curriculo em PDF
+			</a>
+		</section>
+
+		<div class="layout">
+			<section id="mapa-carreira" class="card timeline-card reveal" aria-labelledby="titulo-mapa-carreira">
+				<h2 id="titulo-mapa-carreira" class="section-title">
+					Mapa de carreira
+				</h2>
+
+				<!-- Lista gerada a partir de careerSteps no JSON. -->
+				<div id="career-timeline-wrap" class="timeline">
+					<div class="timeline-track" aria-hidden="true">
+						<div id="timeline-fill" class="timeline-fill"></div>
+					</div>
+					<div id="career-timeline"></div>
+				</div>
+			</section>
+
+			<aside class="sidebar" aria-label="Informacoes complementares">
+				<section id="habilidades" class="card reveal" aria-labelledby="titulo-habilidades">
+					<h2 id="titulo-habilidades" class="section-title">
+						Soft e hard skills
+					</h2>
+					<p class="skills-intro">Afinidade com as seguintes tecnologias e competencias:</p>
+					<div id="skill-groups"></div>
+					<div class="other-skills-block">
+						<h3 class="skills-cat">Outras competencias</h3>
+						<ul id="other-skills" class="pill-list"></ul>
+					</div>
+				</section>
+			</aside>
+		</div>
+	</main>
+
+	<footer class="site-footer">
+		<p>Feito com <span aria-hidden="true">&#9829;</span> por Melissa Fiuza</p>
+	</footer>
+
+	<button id="to-top" class="to-top-btn" aria-label="Voltar ao topo" type="button">&#8593;</button>
+
+	<!-- O defer garante que o script rode depois que o HTML existir no navegador. -->
+	<script src="assets/js/carreira-json.js" defer></script>
+</body>
+
+</html>
